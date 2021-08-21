@@ -1,0 +1,17 @@
+Chapter 1: Internet and Web Basics
+
+Birth:
+    - The Internet began as a network to connect computers at research facilities and universities
+
+    - network was developed by the Advanced Research Projects Agency (ARPA)
+        > Consisted of for computers (UCLA, Stanford, UC Santa Barbara, UoUtah) in 1969
+
+Growth:
+    - Networks were established and connected making the internet (inter connected network)
+
+    - Was originally for edu and gov only but the commercial use ban was lifted 1991
+
+    - Come 2017 over 4 billion came to use the itnernet, rougly half the world's population
+
+    -While working at CERN, a research facility in Switzerland, Tim Berners-Lee created the World Wide Web to be able to view peer papers and research 
+    - In 1991, Berners-Lee posted the code This version of the World Wide Web used HTTP and it was text based, employing Hypertext Markup Language (HTML) to format the documents.
