@@ -13,5 +13,88 @@ Growth:
 
     - Come 2017 over 4 billion came to use the itnernet, rougly half the world's population
 
-    -While working at CERN, a research facility in Switzerland, Tim Berners-Lee created the World Wide Web to be able to view peer papers and research 
-    - In 1991, Berners-Lee posted the code This version of the World Wide Web used HTTP and it was text based, employing Hypertext Markup Language (HTML) to format the documents.
+    - While working at CERN, a research facility in Switzerland, Tim Berners-Lee created the World Wide Web to be able to view peer papers and research 
+        - In 1991, Berners-Lee posted the code This version of the World Wide Web used HTTP and it was text based, employing Hypertext Markup Language (HTML) to format the documents.
+    
+First Browser:
+    - In 1993 Mosiac was made by a UoI student as the first graphic browser, they'd later make netscape which is an ancestor of FireFox
+    - Early 90's made it all cheaper and as more people became connected the HTTP + HTML + Information coalesed into the worldwide web
+
+Web Standards:
+    -  W3C, takes a proactive role in developing recommendations and prototype technologies related to the Web
+    - These recommendations are not rules; they are guidelines
+    - Big part is the Americans with Disabilities Act accomodations so people with barriers to access can still utilize the web
+    - Universal design is a “strategy for making products, environments, operational systems, and services welcoming and usable to the most diverse range of people possible
+
+Web Browsers and Web Servers
+    - Massive section explaining what servers, clients, and netowrk are as well as protocols
+    - Key terms:
+        > Servers
+        > Clients
+        > Networking Hardware
+        > Browser Request and Server Response protocols
+        > HTTP(S)
+        > TCP
+        > IP
+        > SMTP
+        > FTP
+        > URL Formatting (protocol, web server name, navigation, file name/queury)
+        > HTML vs XML
+
+HTML 5:
+    - Ver 5 was approved late 2012 and added native video and then 5.2 was formally recommended by 2017
+    - Since many types, each page has an identifier- the Document Type Definition (DTD)
+        > First line for every web page, for HTML it's <!DOCTYPE html>
+    - Every single web page you create will include the html, head, title, meta, and body elements 
+        > We will follow the coding style to use lowercase letters and place quotes around attribute values
+            
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <title>Page Title Goes Here</title>
+            <meta charset="utf-8">
+            </head>
+            <body>
+            ~~~ body text and special tags ~~~
+            </body>
+            </html>
+
+    - First few lines will be near identical and this format is super repetitive
+
+    - Tags are bordered to their respective sections with opening <---> and closing </--->
+
+    - lang attribute specifies the spoken language ex: lang="en" for english 
+
+    - head section contains information that describes the web page document
+
+    - The body section contains the actual tags, text, images, and other objects that are displayed
+
+Head Section:
+    - includes:
+        > the title of the web page 
+        > meta tags that describe the document (such as the character encoding used and information that may be accessed by search engines)
+        > references to scripts and styles
+    
+    *Many of thesedo not show on the web page itself
+
+    Head Element:
+        - Section from <head> to </head>
+        - Always has at LEAST two elements: the title element and meta element
+
+            Title Element:
+                > first element in the head section
+                > Configures the title bar of the browser's window
+                > The big one that shows in search engines, can include keywords and relevance & even show on results pages for searches
+            
+            Meta Element:
+                > Describes a characteristic of a web page (like char encoding)
+                > Character encoding is the internal representation of letters, numbers, and symbols (like UTF-8)
+
+Body Section:
+    - contains text and elements that display directly on the web page within the browser window, also referred to as the browser viewport
+    - Purpose: to configure content on the web page(s)
+
+    Body Element:
+        > begins with <body> and ends with </body>
+        > most of the time making a web page is in here
+        > Contains text and other special elements which will be displayed in said page
