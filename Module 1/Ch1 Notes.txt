@@ -98,3 +98,5 @@ Body Section:
         > begins with <body> and ends with </body>
         > most of the time making a web page is in here
         > Contains text and other special elements which will be displayed in said page
+
+    END CHAPTER 1
