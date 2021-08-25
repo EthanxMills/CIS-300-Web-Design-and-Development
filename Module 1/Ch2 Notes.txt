@@ -1,1 +1,74 @@
-Start page 104
+
+HTML Basics:
+    - All created in series of layers/shells (like digital art)
+        > each 'layer' can have many components tho, like a body can have many boxes each with their own text
+
+Key Terms for the Chapter:
+    - Header
+    - Nav
+    - Main
+    - Footer
+    - Article
+    - Section
+    - Aside
+
+Semantic Code:
+    - Code used to give contrent on any given web page meaning/structure
+        > such as allignment, color, tag signifigance
+    
+    - Benefits those with Disabilities who can use symantic code to read the content
+    - faster code which search engines can use (SEO search engine optimization)
+
+Block Level Element:
+    - By default html is either block or in-line 
+        
+    - Block
+        > stacks atop one another
+        > always slots into new line
+        > uses maximum width
+        > can wrap elements
+        > can be nested
+        > common examples:
+            o Division elements <div>
+            o Heading elements <h1> - <h6>
+            o Paragraph elements <p>
+            o Form elements <form>
+
+    - In-line
+        > Occupies space as necessary
+        > doesn't go to new line or stacks
+        > can be nested
+        > can't wrap block elements
+        > common examples:
+            o Span elements <span>
+            o Anchor elements <a> (linking pages)
+            o Image elements <img>
+
+Heading Element:
+    - Defines headings via tags
+    - tags range from h1 to h6 in descedning importance
+
+Paragraph Element:
+    - Tags to define a Paragraph
+    - default for grouping sentences/sections of text
+    - browsers add space before and after tag
+    - Example:
+                    <h1> this is an important heading <h1>
+                    <p> this is the info along with it <p>
+
+Line Break:
+    - Basically new line
+        > just use <br> as you would \n
+
+    - Void Element
+
+ Horizontal Rule Element:
+    - Another void element
+
+    - adds Horizontal line on the page <hr>
+        > literally a thin black line, use to break stuff up at the paragraph level
+
+Blockquote Element:
+    - sets up nice indentations for a large quote, like in a newspaper
+
+VIDEO PAUSE AT 8:02
