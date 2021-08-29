@@ -1,0 +1,105 @@
+
+HTML Basics:
+    - All created in series of layers/shells (like digital art)
+        > each 'layer' can have many components tho, like a body can have many boxes each with their own text
+
+Key Terms for the Chapter:
+    - Header
+    - Nav
+    - Main
+    - Footer
+    - Article
+    - Section
+    - Aside
+
+Semantic Code:
+    - Code used to give content on any given web page meaning/structure
+        > such as alignment, color, tag significance
+    
+    - Benefits those with Disabilities who can use semantic code to read the content
+    - faster code which search engines can use (SEO search engine optimization)
+
+Block Level Element:
+    - By default html is either block or in-line 
+        
+    - Block
+        > stacks atop one another
+        > always slots into new line
+        > uses maximum width
+        > can wrap elements
+        > can be nested
+        > common examples:
+            o Division elements <div>
+            o Heading elements <h1> - <h6>
+            o Paragraph elements <p>
+            o Form elements <form>
+
+    - In-line
+        > Occupies space as necessary
+        > doesn't go to new line or stacks
+        > can be nested
+        > can't wrap block elements
+        > common examples:
+            o Span elements <span>
+            o Anchor elements <a> (linking pages)
+            o Image elements <img>
+
+Heading Element:
+    - Defines headings via tags
+    - tags range from h1 to h6 in descending importance
+
+Paragraph Element:
+    - Tags to define a Paragraph
+    - default for grouping sentences/sections of text
+    - browsers add space before and after tag
+    - Example:
+                    <h1> this is an important heading <h1>
+                    <p> this is the info along with it <p>
+
+Line Break:
+    - Basically new line
+        > just use <br> as you would \n
+
+    - Void Element
+
+ Horizontal Rule Element:
+    - Another void element
+
+    - adds Horizontal line on the page <hr>
+        > literally a thin black line, use to break stuff up at the paragraph level
+
+BlockQuote Element:
+    - sets up nice indentations for a large quote, like in a newspaper
+
+shit like <strong> helps emphasize within a page
+    > be sure to have properly encapsulated too tho (as in <p> shelling)
+
+Making Lists:
+    - <ol> starts and ends ordered Lists
+    - each element needs <li> the item </li> on their own
+        > can dictate how the list is "numbered" with a type declaration
+            Ex: <ol type="A"> will start a new list and the list's elements will be listed utilizing uppercase letters
+    - keyword 'start' can be used for a marking place for a list to begin at
+    - keyword 'reversed' can swap between ascending and descending
+        Ex:
+            start="10" reversed="reversed" to indicate that a list is in descending order beginning with number 10 (like tier Lists)
+    
+    * If order doesn't matter for the list u can just change the starter tag to <ul> and it'll use dots
+        > can technically change with 'type' keyword & ="circle/square" but is obsolete since it won't convey meaning in accessibility (use CSS)
+
+    
+    - Descriptive Lists (lists with their own text relating to each element) is just <dl>
+        > functions a lot like how I'm writing this; will have the item emphasized and then a smaller indented section with text
+        > the elements each get <dt> & their descriptions should be encased in <dd>
+
+        Example:
+            <dl>
+                <dt>Ethan</dt>
+                    <dd>Is Super Cool</dd>
+                <dt>Mia</dt>
+                    <dd>Is As Well</dd>
+            </dl>
+
+Special Chapters:
+    - don't play well with HTML 5 so there's different "codes" for each (kinda like how ASCII can show exclamation via a different number)
+        Ex: If you want multiple spaces &nbsp; multiple times will do that (nonbreaking space)

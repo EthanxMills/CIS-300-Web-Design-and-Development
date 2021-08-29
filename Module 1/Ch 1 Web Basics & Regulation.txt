@@ -18,7 +18,7 @@ Growth:
     
 First Browser:
     - In 1993 Mosiac was made by a UoI student as the first graphic browser, they'd later make netscape which is an ancestor of FireFox
-    - Early 90's made it all cheaper and as more people became connected the HTTP + HTML + Information coalesed into the worldwide web
+    - Early 90's made it all cheaper and as more people became connected the HTTP + HTML + Information coalesced into the worldwide web
 
 Web Standards:
     -  W3C, takes a proactive role in developing recommendations and prototype technologies related to the Web

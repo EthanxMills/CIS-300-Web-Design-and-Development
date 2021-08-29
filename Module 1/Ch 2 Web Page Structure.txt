@@ -1,0 +1,79 @@
+
+Dealing with all the fucking Boxes & Sections: 
+
+- See page 164 of book for solid example
+
+- HTML5 has semantic structural elements beyond 'div' to organize the page better
+
+- New one's to HTML 5 are meant to implicitly set an order/methodology to constructing the pages
+
+    Ex. (see page 159 file:///C:/Users/wesle/Documents/HTML%20Class/Basics%20of%20Web%20Design%20Book.pdf)
+        > header (top bar usually)
+        > nav (navigation bar, like listings for tabs with home, something, about us, etc.)
+        > main (body of it which has the div's inside it)
+        > footer
+
+Div element:
+    - <div>
+    - The big kahuna in terms of creating general areas (divisions) on a web page
+        > has bordered white space around it
+
+    -  Use a div element when you need to format an area that may contain other elements 
+        > such as headings, paragraphs, unordered lists, and other div elements
+        > we'll let CSS handle the font, color, and layout shit later on
+
+Header element:
+    - <header>
+    - Section that has the same h1 - h6 stuff as before, pretty self explanatory
+
+Nav element:
+    - <nav>
+    - section with all the navigation links to other parts/pages
+
+Main element:
+    - <main>
+    - central block to it, duh
+
+Footer element:
+    - <footer>
+    - small thin section at bottom
+        > can be stuff like copyright, less important links etc.
+
+
+More specific use-case structural elements:
+
+ - Section, Article, Aside, Time can be used in varying situations for how/whatever u want to show
+    > textbook page 172
+
+
+Linking Multiple Pages:
+
+Anchor element:
+    - <a>
+    - specifies hyperlinks for cross page navigation
+        > can use the 'href' keyword to target the place you're navigating to while giving a nice name
+
+        Ex.
+            <a href="where the document is"> About Us</a>
+
+            ^ makes the nice about us button and takes you to that place
+    
+    -  This by default moves them within the SAME TAB
+        > can change this by using 'target' keyword
+        > target="_blank" will try to pull-up the hyperlink in a blank tab
+
+
+Relative vs Absolute Hyperlinks:
+
+- Absolute are full URL for resources most often not on your own page/within your page's resources
+    Ex: <a href="http://webdevbasics.net/4e/chapter1.html">Chapter 1</a>
+
+- Relative is just noted with file navigation, it will NOT include the http:// or the domain name
+    Ex: <a href="contact.html">Contact Us</a>
+
+* new HTML 5 feature is "block anchors" where entire sections being clicked takes you there (like those annoying adds or an Image)
+
+Email Hyperlinks:
+- different opening to the domain to open up the default email
+    > like clicking a prof's email on canvas and having it open Gmail
+        Ex. <a href="mailto:ermill13@asu.edu"> *the email to be clicked*</a>
