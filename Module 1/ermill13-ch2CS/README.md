@@ -9,3 +9,6 @@
 -  Series of Four Pages: 
     * Home (index.html)
     * Yurts info (yurts.html)
+
+
+###### All code written and contained here is made by Ethan R Miller (asu id: ermill13) unless noted otherwise.
