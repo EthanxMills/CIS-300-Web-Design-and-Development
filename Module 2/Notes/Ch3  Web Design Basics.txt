@@ -1,0 +1,89 @@
+Cascading Style Sheets --> Alternate way of formatting and designing web pages
+    - works in tandem with HTML 
+
+
+Design for your Target Audience:
+
+    - Every page ever has a target audience and should be dev'd as such
+        > fun outdoors for couples is colorful with pictures etc.
+        > informational resources/instructional text heavy with lots of links elsewhere
+
+Browser Compatibility:
+
+    - Web pages don't all render the same way
+        > Good to test pages in the common browsers like Chrome, Internet Explorer, Firefox, Safari
+            > Same can apply to screen resolutions for weird proportions, don't want things being cut away like on mobile
+            > Generally center your content and have sections utilize percentages when setting widths
+
+Types of Organization:
+
+    - Sites can be setup to be navigated, 3 common ways
+        1. Hierarchical (nested pages like products tab --> different product specific pages)
+            > too shallow a page is a waste, too many choices = too confusing 
+            > Same for too deep, use the 3-click rule for how deep to go (can get anywhere on the site from anywhere in 3 clicks max)
+        
+        2. Linear (series of pages, something like a tour, presentation, or tutorial)
+            > meant for Sequential Viewing
+        
+        3. Random or Web (not common commercially)
+            > general collection of pages
+            > more common artistic/conceptual Sites
+
+Key Design principles
+    1. Repetition (repeat visual elements and strong themes)
+    2. Contrast (use to create excitement and draw attention, too flat = lost)
+    3. Proximity (Group related items)
+    4. Alignment (align elements to create a visual unity)
+
+DON'T FORGET ABOUT THE ACCESSIBILITY PARTS WE LEARNED 
+    - physical disability
+    - old computer
+    - slow connection
+    - mobile phone
+
+    POUR:
+        - Perceivable (easy to see or hear)
+        - Operable (all can be navigated with both keyboard and mouse)
+        - Understandable (intuitive, easy to read, well organized)
+        - Robust (content is correctly written to work with common OS, Browsers, and Assistive Tech)
+
+Writing Web:
+    - Avoid blocks of text, no one cares
+    -  Bullets are Good
+    - heading and subheading expedite the process
+    - short paragraph if needed to elaborate
+
+Making it "easy" to read:
+    - common fonts (Arial, Helvetica, Verdant, Times New Roman)
+    - medium text sizes
+    - contrast with text and background
+    - shorter lines in columns instead of wide areas of horizontal text
+    - avoid click here for hyperlinks, check your spelling
+
+Design:
+    - color is RGB so use hex code for color values (3 pairs of two values for each set of RGB tones)
+        > #FF0000 is red, middle two is green, back two is blue, adjust as needed
+    - See web color pallette for common shared ones http://webdevbasics.net/color 
+    - usually choose off either
+        1. monochromatic for themes
+        2. choose color of logo or photo for page
+        3. pick your favorite and go
+
+Load Time:
+    - pumps up fast, aim to keep your pages under 60K on home (including media)
+
+Navigation Suggestions:
+    - Make sure it's easy and consider using
+        > Nav bars
+        > breadcrumbs
+        > graphics =  navigate
+        > Site Map
+        > Site Search Feature
+
+Wireframe:
+    - Sketch or Blueprint of a website
+    - basic shit like "logo goes here" and outline areas
+
+    - Most important info above the fold of a page
+    - white space is healthy
+    - page layout can make or break
