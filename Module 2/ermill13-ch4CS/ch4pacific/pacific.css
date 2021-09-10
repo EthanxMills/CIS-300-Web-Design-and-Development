@@ -12,6 +12,10 @@ body { color: #666666 ;
     background-color: #FFFFFF;
 }
 
+h1{
+    margin-bottom: 0;
+}
+
 h2 {
     color: #1976D1;
 }
