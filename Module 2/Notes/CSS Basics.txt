@@ -1,0 +1,71 @@
+Style Sheets
+    - Used in desktop publishing fpr topographical style to printed media 
+
+CSS
+    Style sheets language
+        > cross platform developed based off web standards
+    
+    Advantages of CSS
+        > Greater typography and page layout control
+        > Style is separate from structure
+        > Styles can be stored in a separate document and linked to from the web page
+        > Potentially smaller documents
+        > Easier site maintenance
+    
+    4 Types of Cascading Style Sheets
+        > Inline Styles
+             Configured in the body of the web page
+             Use the style attribute of an HTML tag
+             Apply only to the specific element
+        > Embedded Styles
+             Configured in the head section of a web page.
+             Use the HTML <style> element
+             Apply to the entire web page document
+        > External Styles
+             Configured in a separate text file with .css file extension
+             The HTML <link> element in the head section of a web page associates it with the .css file
+        > Imported Styles
+             Similar to External Styles
+             We’ll concentrate on the other three types of styles
+    
+    The "Cascade"
+        - Flows in an order of layering
+            > Browser Default --> External styles --> Inline styles --> HTML attributes
+    
+    Syntax
+        - Each is composed of rules that describe the styling to be applied
+        - each rule contains a SELECTOR and a DECLARATION
+            ex: 
+                SELECTOR(DEC PROPERTY: DEC VALUE)
+                body {  color: #0000FF;
+                        background-color: #FFFF00; } 
+            
+            **can also use rgb(x,y,z) or presets like 'blue' or 'yellow'
+    
+    Inline CSS with the Style Attribute 
+        - Configured in the body of the Web Page 
+        - Use the style attribute tag of HTML
+            > uses value attribute pairs
+            ex. 
+                <h1 style="color:#ff0000">Heading text is red</h1>
+                <h1 style="color:#FF0000;background-color:#cccccc">This is displayed as a red heading with gray background</h1>
+
+    Configure Embedded CSS with the Style Element 
+        - conduct in larger blocks in sections for enter web page doc, these will override whatever is there 
+        ex. <style>
+                body { background-color: #000000;
+                color: #FFFFFF;
+                }
+            </style>
+        
+        - CSS style rules are contained in a text file separate from the HTML documents; but multiple web pages can associate with the same external sheet 
+            > The External Style Sheet text file:
+                extension ".css"
+                contains only style rules
+                does not contain any HTML tags
+    
+    The <link> Element
+        - self contained tag
+        - placed in the header to associate the style sheet file with the web page
+        ex.     
+            <link rel="StyleSheet" href="colors.css">
