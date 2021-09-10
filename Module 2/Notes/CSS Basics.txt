@@ -69,3 +69,48 @@ CSS
         - placed in the header to associate the style sheet file with the web page
         ex.     
             <link rel="StyleSheet" href="colors.css">
+
+    .class selector for CSS
+        - target and use style sheet on one or more element using .classname 
+
+        making the new class <style>
+                                .new { 
+                                    color: #FF0000;
+                                }
+                            </style>
+        Target and use by: <p class=“new”>This text is red</p>
+    
+    #id CSS selector
+        - just like class but use #idname 
+        ex. <style> #new { color: ....} </style>
+
+        Target with: <p id=“new”>This text is red.</p>
+    
+    Descendant selector
+        - target area within the context of a container (make paragraphs in body white text)
+        ex. 
+            <style>
+                footer p {color: #00ff00; }
+            </style>
+    
+    Div (yes again)
+        - block display element- configure chunk at a time general and nest specifics from there
+
+        <style>
+            .notes { font-size: small;
+            text-align: center; }
+        </style>
+
+        <div class="notes">Copyright &copy; 2014</div>
+    
+    Span (target area)
+        - aim at a chunk and make it a way
+
+        <style>
+            .companyname { font-weight: bold;
+            font-family: Georgia, “Times New Roman”, serif;
+            font-size: 1.25em;
+        </style>
+
+        Embolden a Company Name Using the Above:
+        <p>Your needs are important to us at <span class=“companyname”>Acme Web Design</span>. We will work with you to build your website.</p> 
