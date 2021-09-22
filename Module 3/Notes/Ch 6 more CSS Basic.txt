@@ -1,0 +1,27 @@
+
+GIF (graphic interchange format):
+    - flat line drawn or simple images (max 256 colors)
+    - Lossless compression when saved 
+    - Animated gift has several frames of images which are flashed through (like a flip book)
+
+    The format GIF89A used by GIF images supports image transparency (like discord animated emote)
+
+JPEG (Joint Photographic Experts Group):
+    - JPEG images are best used for photographs
+    - lossy compression (some is lost on compression, hence why they compress better)
+
+PNG (Portable Network Graphic):
+    - best of both with jpg and gif 
+    - supports greater color res and count, transparency, and lossless compression
+
+Image Element:
+    - Example: <img src="logo.gif" height="200" width="500" alt="My Company Name">
+    - overall configures it to a page
+    - src specifies target file (image)
+    - alt provides text description (alternate text like with accessibility)
+    - can reserve space via pixel counts
+    
+    Linking:
+        > Image link is just img tag with anchors around it <a href="index.html"><img src="home.gif" height="19" width="85" alt="Home"></a>
+
+        > thumbnail can get clicked to take to full image <a href="sunset.jpg"><img src="thumb.jpg" height="100" width="100" alt="view a larger sunset"></a>
