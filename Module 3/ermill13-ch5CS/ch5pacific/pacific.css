@@ -4,7 +4,7 @@ header { color: #FFFFFF;
     background-color: #002171;
     background-image: url(images/sunset.jpg);
     background-repeat: no-repeat;
-    float: right; forcing image too far to the right with the index.html size adjustments
+    /*float: right; forcing image too far to the right with the index.html size adjustments*/
     line-height: 400%;
     text-indent: 1em;
 }
