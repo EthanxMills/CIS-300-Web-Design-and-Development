@@ -3,7 +3,8 @@
 header { color: #FFFFFF;
     background-color: #002171;
     background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat right;
+    background-repeat: no-repeat;
+    float: right;
     line-height: 400%;
     text-indent: 1em;
 }
