@@ -1,12 +1,19 @@
 
+#wrapper{
+    margin-left: auto; margin-right: auto;/*Centered*/
+    width: 80%; min-width: 960px; max-width: 2048px;/*Width Specs*/
+    background-color: #FFFFFF;
+    box-shadow: 5px, 5px, 0px, #333333;/*Box shadow with 5px offset, non-radial, and dark*/
+}
+
 
 header { color: #FFFFFF;
     background-color: #002171;
     background-image: url(images/sunset.jpg);
     background-repeat: no-repeat;
-    /*float: right; forcing image too far to the right with the index.html size adjustments*/
-    line-height: 400%;
-    text-indent: 1em;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 nav { 
@@ -16,8 +23,11 @@ nav {
 }
 
 body { color: #666666 ;
-    background-color: #FFFFFF;
+    background-color: #90c7e3;
     font-family: Arial, Helvetica, sans-serif;
+
+    /*Gradient */
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
 }
 
 h1{
