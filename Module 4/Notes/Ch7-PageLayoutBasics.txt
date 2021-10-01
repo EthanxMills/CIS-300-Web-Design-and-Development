@@ -1,0 +1,31 @@
+
+Topics:
+    > float
+
+    > positioning
+        ^ Fixed
+        ^ Relative
+        ^ Absolute 
+
+    > Two-Column Layouts
+
+    > Navigation of Unordered List
+        ^ Vertical
+        ^ Horizontal
+    
+    > Hyperlink Interactivity with CSS Pseudo-classes
+
+    > Configure CSS
+        ^ Sprites
+        ^ Prints
+        ^ Stacking Order (layers)
+    
+Normal Flow:
+    > Browser display of elements in the order they are coded (affects layers & relative sizes/positions)
+
+Float Property:
+    > Elements that seem to float on the right or left side of a window or element are configured as such
+
+    > Using "clear" a float to stop other elements from being weird
+        > if h2 text made after a float statement, it'll be pushed (like my case study)
+            ^ resolve with clear:left; to re-justify the position of the h2 text
