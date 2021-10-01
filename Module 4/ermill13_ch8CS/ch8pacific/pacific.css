@@ -1,0 +1,104 @@
+
+#wrapper{
+    margin-left: auto; margin-right: auto;/*Centered*/
+    width: 80%; min-width: 960px; max-width: 2048px;/*Width Specs*/
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 0px #333;/*Box shadow with 5px offset, non-radial, and dark*/
+}
+
+
+header { color: #FFFFFF;
+    background-color: #002171;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav { 
+    background-color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+}
+
+body { color: #666666 ;
+    background-color: #90c7e3;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*Gradient */
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
+}
+
+main {
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #1976D1;
+    font-family: Georgia, 'Times New Roman', serif;
+    box-shadow: 1px 1px 0px #CCCCCC;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #000033;
+}
+
+ul {
+    list-style-image: url(images/marker.gif);
+}
+
+dt {
+    color: #002171;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+}
+
+.resort {
+    color: #1976D2;
+    font-weight: bold;
+}
+
+#contact{
+    font-size: 90%;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(images/coast.jpg); 
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url(images/yurt.jpg); 
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url(images/trail.jpg); 
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
