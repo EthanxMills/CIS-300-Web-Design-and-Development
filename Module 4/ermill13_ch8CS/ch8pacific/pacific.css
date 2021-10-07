@@ -161,3 +161,29 @@ footer {
     footer { grid-row: auto; grid-column: 1 / 5; }
 
 }
+
+@media (min-width: 1024px){
+
+    #wrapper{
+        margin: auto;
+        width: 80%;
+        border-color: darkblue;
+        box-shadow: black;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    nav {
+        text-align: left;
+        padding-left: 1em;
+    }
+
+    nav ul{ 
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+
+
+}
