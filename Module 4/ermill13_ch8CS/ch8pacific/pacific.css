@@ -10,6 +10,7 @@
 header { color: #FFFFFF;
     background-color: #002171;
     background-image: url(images/sunset.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     height: 60px;
     text-align: center;
@@ -22,6 +23,10 @@ nav {
     text-decoration: none;
     text-align: center;
     padding: 1em;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 body { color: #666666 ;
