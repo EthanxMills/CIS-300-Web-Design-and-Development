@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    /*Hot swap to an image background*/
+    /*background: url() no-repeat;
+    background-size: cover;*/
+}
+
+.home{
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+
+    background: #555;
+
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.home img{
+    border-radius: 60%;
+    /*Crop pfp into a circle, makes it nicer since its the home page*/
+}
