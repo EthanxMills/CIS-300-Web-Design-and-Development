@@ -200,7 +200,7 @@ input, textarea{
         grid-template-rows: auto;
     }
 
-    input[type = "submit"]{
+    input[type = "button"]{
         grid-column: 2/2;
         width: 9em;
     }
