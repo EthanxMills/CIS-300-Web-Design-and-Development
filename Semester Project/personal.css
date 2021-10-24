@@ -2,10 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background-color: #000;
-    /*background: url(images/dark-circuit.jpg) no-repeat;
+    /*background: url() no-repeat;
     background-size: cover;*/
 }
 
+header { 
+    color: #9503e9;
+    text-align: center;
+    font-size: 50px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+h1{
+    color: #9503e9;
+}
+
+
+/*------------------------------ Home Specific Edits --------------------------------------------*/
 #home{
     width: 500px;
     padding: 50px;
@@ -31,7 +47,7 @@ body{
     color: #9503e9;
 }
 
-#home h3{
+h3{
     color: #0eb922;
 }
 
@@ -51,3 +67,14 @@ body{
     font-size: 20px;
 }
 
+/*------------------------------ About Me Specific Edits --------------------------------------------*/
+
+#aboutMe {
+    position: relative;
+}
+
+img{
+    position: top right;
+    top: auto;
+    right: auto;
+}
