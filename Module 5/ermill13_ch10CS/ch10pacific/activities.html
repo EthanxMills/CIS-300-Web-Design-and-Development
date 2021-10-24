@@ -2,18 +2,18 @@
 
 <html lang="en">
     <head>
-        <title>Pacific Trails Resort :: Activities</title>
+        <title>Pacific Trails Resort</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initialscale=1.0">
-        <link rel="stylesheet" href="pacific.css">
+        <link rel="stylesheet" href="pacific.css" type="text/css"> 
     </head>
 
     <div id="wrapper">
-        <body class="content">
+        <body>
             <header>
                 <h1><a href="index.html"> Pacific Trails Resort</a></h1>
             </header>
-
+            
             <nav>
                 <ul>
                     <li><a href="index.html"> Home</a></li>
@@ -23,35 +23,28 @@
                 </ul>
             </nav>
 
-            <div id="trailhero">
-
-               
-
-            </div>
-
             <main>
-                <h2>Activities at Pacific Trails</h2>
+                <h2> Reservations at Pacific Trails</h2>
+                <h3>Contact Us Today!</h3>
 
-                <section>
-                    <h3>Hiking</h3>
-                        <p>
-                            Pacific Trails Resort has 5 miles of hiking trails and is adjacent to a state park. Go it alone or join one of our guided hikes.
-                        </p>
-                </section>
+                <form name="Reserve" method="post" id="order" action=" https://webdevbasics.net/scripts/pacific.php">
 
-                <section>
-                    <h3>Kayaking</h3>
-                        <p>
-                            Ocean kayaks are available for guest use.
-                        </p>
-                </section>
+                    <label for="myFName">First Name:</label>
+                    <input type="text" name="myFName" id="myFName" required="required">
 
-                <section>
-                    <h3>Bird Watching</h3>
-                        <p>
-                            While anytime is a good time for bird watching at Pacific Trails, we offer guided birdwatching trips at sunrise several times a week.
-                        </p>
-                </section>
+                    <label for="myLName">Last Name:</label>
+                    <input type="text" name="myLName" id="myLName" required="required">
+
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" required="required">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" id="phone" maxlength="12">
+
+                </form>
+
+                <p>Required fields are marked with an asterisk *.</p>
+
             </main>
 
             <footer>
