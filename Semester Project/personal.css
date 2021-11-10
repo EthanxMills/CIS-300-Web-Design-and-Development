@@ -64,13 +64,12 @@ footer a{
     padding: 50px;
     margin: auto;
     margin-top: 5%;
-    background: #202020;
     text-align: center;
     color: #fff;
 }
 
 #homeBox img{
-    border-radius: 50%;
+    border-radius: 40%;
     object-fit: contain;
     /*Crop pfp into a circle, makes it nicer since its the home page*/
     width: 250px;
@@ -102,8 +101,6 @@ footer a{
 #hBody{
     margin: 0;
     padding: 0;
-    background: url(images/pexels-adrien-olichon-2387793.jpg);
-    background-size: cover;
 }
 /*------------------------------ About Me Specific Edits --------------------------------------------*/
 #aboutMe{
