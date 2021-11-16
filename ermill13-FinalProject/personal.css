@@ -138,14 +138,13 @@ footer a{
 }
 
 /*------------------------------ Gallery --------------------------------------------*/
-
 .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 25%); /*Use auto-fill so partial left rows don't resize to cover line*/
+    grid-template-columns: 33% 33% 33%; /*Use auto-fill so partial left rows don't resize to cover line*/
+    grid-template-rows: auto;
     grid-gap: 10px;
     justify-items: center;
     height: 80%;
-    overflow: auto;
     margin: auto;
     margin-top: 5%;
     padding: 0;
@@ -156,4 +155,10 @@ footer a{
     text-align: center;
     color: #fff;
     background: #555;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
