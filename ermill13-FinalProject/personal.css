@@ -79,7 +79,6 @@ footer a{
 #homeBox h1{
     font-size: 80px;
     letter-spacing: 2px;
-    color: #9503e9;
 }
 
 #homeBox p{
@@ -136,4 +135,25 @@ footer a{
     right: 18%;
     padding-left: 10px;
     
+}
+
+/*------------------------------ Gallery --------------------------------------------*/
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%); /*Use auto-fill so partial left rows don't resize to cover line*/
+    grid-gap: 10px;
+    justify-items: center;
+    height: 80%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.poster{
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    background: #555;
 }
