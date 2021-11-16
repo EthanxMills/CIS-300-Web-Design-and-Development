@@ -141,7 +141,7 @@ footer a{
 .gallery{
     display: grid;
     grid-template-columns: 33% 33% 33%; /*Use auto-fill so partial left rows don't resize to cover line*/
-    grid-template-rows: auto;
+    grid-template-rows: repeat(3, 33%);
     grid-gap: 10px;
     justify-items: center;
     height: 80%;
