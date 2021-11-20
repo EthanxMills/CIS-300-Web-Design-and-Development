@@ -185,11 +185,8 @@ footer a{
     display: block;
 }
 
-.image{
-    padding: 5px;
-    justify-items: center;
-    text-align: center;
-    color: #fff;
+.text img{
     width: 100%;
-    object-fit: contain;
+    height: auto;
+    object-fit: cover;
 }
