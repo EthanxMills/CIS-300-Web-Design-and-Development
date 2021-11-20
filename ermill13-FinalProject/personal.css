@@ -176,13 +176,19 @@ footer a{
 }
 
 .text{
-    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
     color: #fff;
+    text-align: left;
+    overflow: auto;
+    display: block;
 }
 
 .image{
     padding: 5px;
+    justify-items: center;
     text-align: center;
     color: #fff;
-    background: #555;
 }
