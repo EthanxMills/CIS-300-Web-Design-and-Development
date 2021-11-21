@@ -180,27 +180,13 @@ input, textarea{
 
 /*------------------------------ Content Page --------------------------------------------*/
 .content{
-    display: grid;
-    grid-template-columns: 66% 33%;
-    grid-gap: 10px;
-    justify-items: center;
-    height: 80%;
-    margin: auto;
-    padding: 0;
+
 }
 
 .text{
-    padding-top: 1px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 30px;
-    color: #fff;
-    text-align: left;
-    overflow: auto;
-    display: block;
+
 }
 
-.text img{
-    object-fit: cover;
-    float: right;
+.side-img{
+
 }
