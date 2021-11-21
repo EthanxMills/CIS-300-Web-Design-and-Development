@@ -180,13 +180,14 @@ input, textarea{
 
 /*------------------------------ Content Page --------------------------------------------*/
 .content{
-
-}
-
-.text{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .side-img{
-
+    float: right;
+    max-width: 100%;
+    flex-basis: 40%;
+    padding: 10px;
 }
