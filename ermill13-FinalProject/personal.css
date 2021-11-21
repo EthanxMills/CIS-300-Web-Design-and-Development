@@ -199,3 +199,5 @@ input, textarea{
     width: 30%;
     height: fit-content;
 }
+
+video, embed { padding-top: 20px; }
