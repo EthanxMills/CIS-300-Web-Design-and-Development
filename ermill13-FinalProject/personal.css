@@ -178,16 +178,19 @@ input, textarea{
     object-fit: cover;
 }
 
-/*------------------------------ Content Page --------------------------------------------*/
+/*------------------------------ Gallery Pages --------------------------------------------*/
 .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: left;
+    padding: 10px;
 }
 
-.side-img{
+.text{
+    width: 50%;
+    overflow-wrap: normal;
+}
+
+.image img{
     float: right;
-    max-width: 100%;
-    flex-basis: 40%;
-    padding: 10px;
+    width: 30%;
+    height: fit-content;
 }
