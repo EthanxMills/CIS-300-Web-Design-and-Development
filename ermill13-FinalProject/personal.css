@@ -1,5 +1,6 @@
 #wrapper{
     font-family: 'Gothic', sans-serif;
+    color : #fff;
 }
 
 header { 
@@ -43,6 +44,8 @@ body{
     padding: 0;
     background: #111;
     background-size: cover;
+    overflow: auto;
+    display: block;
 }
 
 main{
@@ -57,7 +60,19 @@ footer{
 }
 footer a{
     text-decoration: none;
+    color: #2074f3;
 }
+
+form { 
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+}
+
+input, textarea{ 
+    margin-bottom: .5em;
+}
+
 /*------------------------------ Home Specific Edits --------------------------------------------*/
 #homeBox{
     width: 500px;
@@ -125,8 +140,7 @@ footer a{
     color: #FFF;
     overflow: auto;
     display: block;/*Needs to be removed now no?*/
-
-    text-align:start;
+    text-align:left;
 }
 
 #aboutMe img{
