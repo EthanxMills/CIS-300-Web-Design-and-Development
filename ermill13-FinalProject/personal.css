@@ -200,4 +200,11 @@ input, textarea{
     height: fit-content;
 }
 
-video, embed { padding-top: 20px; }
+video, embed { 
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: auto;
+    
+}
