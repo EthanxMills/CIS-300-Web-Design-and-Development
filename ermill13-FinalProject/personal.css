@@ -72,8 +72,24 @@ form {
     max-width: 50%;
 }
 
+table {
+    border: 2px #FFF solid;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: #FFF solid;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border: #FFF solid;
+}
+
 input, textarea{ 
-    margin-bottom: .5em;
+    margin-bottom: 10px;
 }
 
 /*------------------------------ Home Specific Edits --------------------------------------------*/
